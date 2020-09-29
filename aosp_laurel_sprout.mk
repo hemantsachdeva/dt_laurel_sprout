@@ -23,9 +23,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # EvolutionX Official Props
-#EVO_MAINTAINER := oddlyspaced
+EVO_MAINTAINER := oddlyspaced_HeMantSacHDevA
 #EVO_SUPPORT_URL := https://t.me/EvolutionXA3
-#CUSTOM_BUILD_TYPE := OFFICIAL
+CUSTOM_BUILD_TYPE := UNOFFICIAL
 
 TARGET_BOOT_ANIMATION_RES := 720
 TARGET_GAPPS_ARCH := arm64
@@ -42,7 +42,7 @@ PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_SHIPPING_API_LEVEL := 28
 
-BUILD_FINGERPRINT := "Xiaomi/laurel_sprout/laurel_sprout:10/QKQ1.190910.002/V11.0.16.0.QFQMIXM:user/release-keys"
+BUILD_FINGERPRINT := "google/coral/coral:11/RP1A.200720.009/6720564:user/release-keys"
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="qssi-user 10 QKQ1.190910.002 V11.0.16.0.QFQMIXM" \
